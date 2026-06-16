@@ -1,0 +1,27 @@
+body{
+    font-family:Arial, sans-serif;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../images/palembang-smart-network.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    min-height:100vh;
+}
+
+.container,
+.content,
+.login-box,
+.register-box,
+.box,
+.card,
+.header{
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(4px);
+}
+
+h1,h2,h3{
+    color:#d50000;
+}
